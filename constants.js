@@ -1,4 +1,4 @@
-const API_ROOT = 'https://flyff-api.sniegu.fr/';
+const API_ROOT = '';
 
 export {
   API_ROOT

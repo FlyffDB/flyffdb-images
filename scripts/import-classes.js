@@ -2,7 +2,7 @@ import { getApi, downloadIcon } from '../lib';
 
 const importClasses = async () => {
   console.log("Importing class images...")
-  // Since their are only a few classes we can query them all at once
+  // Since there are only a few classes we can query them all at once
   const { data: classIdsResponse } = await getApi('class');
   // Convert response into classId param
   const classIds = classIdsResponse.reduce((acc, current) => acc += `,${current}`);
