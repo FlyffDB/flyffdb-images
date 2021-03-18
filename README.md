@@ -18,4 +18,8 @@ npm run import-class
 
 ## Configuration
 
-All import constants are stored in constants.js in root. Currently the API_ROOT is hidden since it is not publicly available
+All import constants are stored in constants.js in root.
+
+## Copyright
+
+All images included in this repo are copyright of Gala Lab Corp.
