@@ -1,0 +1,29 @@
+{
+  "name": "flyffdb-images",
+  "version": "1.0.0",
+  "description": "A collection of images from Flyff Project M",
+  "main": "import.js",
+  "scripts": {
+    "import": "babel-node import",
+    "import-classes": "babel-node scripts/import-classes",
+    "import-npcs": "babel-node scripts/import-npcs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlyffDB/flyffdb-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlyffDB/flyffdb-icons/issues"
+  },
+  "homepage": "https://github.com/FlyffDB/flyffdb-icons#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "axios": "^0.21.1",
+    "axios-rate-limit": "^1.3.0"
+  }
+}
